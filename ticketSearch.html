@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="//g.alicdn.com/trip/tools/img/favicon.ico" type="image/x-icon">
+	<title>飞猪-车票搜索</title>
+	 <link rel="stylesheet" href="css/ticketSearch.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+
+<!-- header -->
+<div class="header">
+	<div class="header">
+        <a href="index.html" class="header_left">
+            <i class="icon iconfont icon-fanhuijiantou"></i>
+        </a>
+        <div class="header_center">
+            <h3>火车票搜索</h3>
+        </div>
+        <div class="header_right">
+            <i class="icon iconfont icon-gengduo"></i>
+            <div class="hiddenList">
+                <ul class="hiddenList_uls">
+                    <li>
+                    	<a href="#"><i class="icon iconfont icon-xiaoxi"></i><span>消息</span></a>
+                    </li>
+                    <li>
+                    	<a href="index.html"><i class="icon iconfont icon-shouye"></i><span>首页</span></a>
+                    </li>
+                    <li>
+                   		<a href="#"><i class="icon iconfont icon-kefu"></i><span>我的客服</span></a>
+                    </li>
+                    <li>
+                    	<a href="#"><i class="icon iconfont icon-duanxiaoxi"></i><span>我要反馈</span></a>
+                    </li>
+                    <li>
+                   		<a href="my.html"><i class="icon iconfont icon-wode"></i><span>我的飞猪</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>   
+    </div>
+</div>
+
+<!-- section -->
+<div class="section">
+	<!-- banner -->
+	<div class="banner">
+		<div class="swiper-container swiper-container2">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+					<img src="images/img_222/TB1B5X4dwMPMeJjy1XdXXasrXXa-640-120.jpg" alt="">
+		        </div>
+		        <div class="swiper-slide">
+					<img src="images/img_222/TB1AUmKfwoQMeJjy1XaXXcSsFXa-620-120.jpg" alt="">
+		        </div>
+		    </div>
+		    <div class="swiper-pagination"></div> 
+		</div>
+	</div>
+	
+	<!-- section_container	 -->
+	<div class="section_container">
+		<a class="section_container_adv">
+			<p>立即领取2-60元随机立减，限12306实名首单</p>
+			<i class="icon iconfont icon-jinrujiantou"></i>
+		</a>
+		<div class="section_container_page">
+			<div class="section_container_form">
+				<form id="ticketSearch_forms" action="">
+					<div class="search_city">
+						<div class="search search_city_left">
+							<input id="depart" type="text" placeholder="出发" value="渭南">
+						</div>
+						<div class="search_city_icon">
+							<i class="icon iconfont icon-qiehuanchengshi"></i>
+						</div>
+						<div class="search search_city_right">
+							<input id="return" type="text" placeholder="出发" value="咸阳">
+						</div>
+					</div>
+					<div class="search search_date">
+						<div class="search_datecontainer">
+							<span>10月7日 <i>明天</i></span>
+							<i class="icon iconfont icon-jinrujiantou"></i>
+						</div>
+					</div>
+					<div class="search_selectSwitch">
+						<div class="search_selectSwitch_item left">	
+							<input type="checkbox" id="stuTicket" class="checkboxClass">
+							<label for="stuTicket">学生票查询</label>
+						</div>
+						<div class="search_selectSwitch_item right">
+							<input type="checkbox" id="trainType" class="checkboxClass">
+							<label for="trainType">只看高铁动车</label>
+						</div>
+					</div>
+					<input class="search_submit" type="submit" value="开始搜索">
+				</form>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<!-- footer -->
+<div class="footer">
+	<a href="#" class="footer_item">
+		<i class="icon iconfont icon-icon-test"></i>
+		<span class="footer_item_info">12306(已登录)</span>
+	</a>
+	<a href="#" class="footer_item">
+		<i class="icon iconfont icon-naozhong"></i>
+		<span class="footer_item_info">抢票</span>
+	</a>
+	<a href="#" class="footer_item">
+		<i class="icon iconfont icon-xiaoxi"></i>
+		<span class="footer_item_info">在线客服</span>
+	</a>
+	<a href="#" class="footer_item">
+		<i class="icon iconfont icon-dingdanchulizhong"></i>
+		<span class="footer_item_info">订单·退票/改签</span>
+	</a>
+</div>
+
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/mySwiper.js"></script>
+<script type="text/javascript" src="js/ticketSearch.js"></script>

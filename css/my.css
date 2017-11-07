@@ -1,0 +1,337 @@
+/***********公共样式  ********/
+html,body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{
+    margin: 0;
+    padding:0;
+}
+html{
+    font-size: 26.67vw;
+}
+html{
+    height:100%;
+}
+body{
+    width: 100%;
+    height:100%;
+    font-family:"regular","Simsun", "Microsoft Yahei", "Heiti SC", "Droid Sans", "Droidsansfallback", SimSun, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+
+}
+a{
+    text-decoration:none;
+    color:black;
+    display: inline-block;
+
+}
+img,input{
+    border:none;
+    display: block;
+}
+ul,li{
+    list-style: none;
+}
+/***********公共样式结束********/
+/***********头部开始********/
+header{
+    width: 100%;
+    height: 1.26rem;
+    background:#ffc901;
+}
+.headertop{
+    width: 80%;
+    margin:0.08rem 10% 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headertop a i{
+    font-size:0.3rem;
+    display: block;
+}
+.headerbottom{
+    width: 96%;
+    margin-left:4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headLeft{
+    display: flex;
+}
+.headLeft a img{
+    width:0.46rem;
+    margin-right:0.05rem;
+    border-radius: 50%;
+}
+.headLeft a span{
+    display:block;
+    font-size:0.13rem;
+    font-weight: 800;
+    color: #3d3d3d;
+    text-align: center;
+}
+.headLeft a .huiyan{
+    width: 0.5rem;
+    height: .2rem;
+    text-align: center;
+    line-height: .2rem;
+    border-radius:0.15rem;
+    border: 2px solid #3d3d3d;
+}
+.headright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1.5rem;
+    height: 0.4rem;
+    background: #ee9900;
+    border-top-left-radius:0.2rem;
+    border-bottom-left-radius:0.2rem;
+}
+
+.headerringht span{
+    font-size:0.15rem;
+    color: white;
+    display: block;
+}
+.headerringht span:nth-of-type(2){
+    font-size:0.1rem;
+}
+.headright a{
+    display: block;
+}
+.headright a i{
+    font-size:.25rem;
+    font-weight: 800;
+    color: white;
+    display: block;
+}
+/***********头部开始********/
+/***********内容部分开始********/
+section{
+    flex: 1;
+    width: 100%;
+    background: #f2f3f4;
+    display: flex;
+    flex-flow: column;
+    overflow-y: scroll;
+
+}
+/*权益开始*/
+.equity{
+    width: 100%;
+    margin: .4rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.equit{
+    width:3rem;
+    padding: .12rem 0;
+    border-radius:0.2rem;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.equity span{
+    font-weight: 800;
+    font-size:0.14rem;
+}
+.equity .hui i{
+    font-size:.2rem;
+    color: #cea63c;
+    font-weight:800;
+    display: block;
+}
+.equity .jinru i{
+    color:#3d3d3d ;
+    font-size:.15rem;
+    font-weight:800;
+    display: block;
+}
+/*全部订单开始*/
+.indent{
+    width: 100%;
+    background: white;
+    border-bottom:1px solid #e0e0e0;
+}
+.indent a{
+    width: 25%;
+    text-align:center ;
+    font-size:0.15rem;
+    color: #666666;
+    float: left;
+    display: block;
+    padding: .1rem 0;
+    
+}
+.indent a i{
+    font-size:0.25rem;
+    color: #626262;
+    font-weight: 800;
+}
+
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    margin-top: .116rem;
+    height: .9rem;
+}
+/*里程商店开始*/
+.mileage{
+    width:100%;
+    height: 7.58rem;
+    background: white;
+    border-top:1px solid #e0e0e0;
+    margin-top: .116rem;
+}
+.mileagetop{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.mileft strong{
+    margin: 0  0.02rem;
+}
+.xiushi{
+    display: inline-block;
+    width: .033rem;
+    height: 0.15rem;
+    background:#fec82e;
+
+}
+.mileagetop .mileft{
+    font-size:0.13rem;
+    height: .55rem;
+    display: flex;
+    align-items: center;
+}
+.mileft i{
+    font-weight: 600;
+    color: black;
+}
+.mileagebotoom{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 1.1rem;
+}
+
+.mileagebotoom a img{
+    width: 1.1rem;
+
+}
+.miright{
+    font-size:0.13rem;
+    display: flex;
+    align-items: center;
+}
+.miright span{
+    font-weight: 600;
+    font-size:0.116rem;
+    color: #f2b341;
+}
+.miright .qindao{
+    align-self: center;
+    display: inline-block;
+    width: 0.4rem;
+    height: .18rem;
+    font-size:0.04rem;
+    text-align: center;
+    line-height: .18rem;
+    border-radius: 0.15rem;
+    border: 1px solid #f2b341;
+}
+.miright i{
+    font-weight:800;
+}
+
+/*.常用工具开始*/
+.tools{
+    margin-top:0.13rem;
+    background: white;
+}
+.toolstop{
+    display: flex;
+    align-items: center;
+    height:0.5rem;
+    background: white;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+}
+.toolstop .chnagy{
+    display: inline-block;
+    line-height: 0.5rem;
+    font-size:0.13rem;
+    font-weight: 800;
+}
+.toolstop .xuishi{
+    display: inline-block;
+    margin-left:0.24rem;
+    margin-right:0.04rem;
+    width: .04rem;
+    height: 0.15rem;
+    background:#fec82e;
+}
+.toolsbottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: white;
+}
+.toolsbottom a{
+    width: 32%;
+    height: .86rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.13rem;
+    font-weight: 800;
+    color: #666666;
+}
+.toolsbottom a i{
+    font-size:0.28rem;
+    color: #ee9900;
+}
+/***********内容部分结束********/
+
+/***********底部开始********/
+footer{
+    width: 100%;
+    height: 0.5rem;
+    border-top:1px solid #e0e0e0;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.foot a{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot a span{
+    font-weight: 800;
+    font-size:0.09rem;
+    color: #3d3d3d;
+    display: inline-block;
+}
+.foot a i{
+    font-size:0.25rem;
+    color: #ffc000;
+}
+.foot a img{
+    width:0.28rem;
+    height:0.28rem;
+    display: none;
+}
+/***********底部结束********/
